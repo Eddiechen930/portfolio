@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <title>Eddie Chen</title>
-            <link rel="stylesheet" href="style.css">
-            <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
-            <meta charset="utf-8">
-    </head>
+<head>
+        <title>Eddie Chen</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+</head>
 
-    <body>
+<body>
 
-    <font-size:40px;> </font-size:40px;>
+<font-size:40px;> </font-size:40px;>
         <!--home-->
-            <ul class="navigation li">
+        
+            <div id="navbar">
+                <ul class="navigation li">
                 <a href="#index"><li>Home</li></a>
                 <a href="#about"><li>About Me</li></a>
                 <a href="#classes"><li>My classes</li></a>
                 <a href="#contact"><li>How to contcact me</li></a>
             </ul>
+                  </div>
+                <div class="content">
+                 </body>
+                 <script>
+                 window.onscroll = function() {myFunction()};
+              
+                 var navbar = document.getElementById("navbar");
+                 var sticky = navbar.offsetTop;
+              
+                 function myFunction() {
+                   if (window.pageYOffset >= sticky) {
+                     navbar.classList.add("sticky")
+                   } else {
+                     navbar.classList.remove("sticky");
+                   }
+                 }
+                 </script>
+
  <p1 id="index"> 
     <ol>Hello Guys its me, Im Eddie Chen. I am in school now!!!
     </ol>
@@ -85,6 +105,7 @@
         <a href="https://www.facebook.com/chen.eddie.564"><img src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t1.0-9/14590314_1753818271547946_1756514140573886874_n.jpg?_nc_cat=111&_nc_oc=AQncunFXrCBRvlm08FS_AxFRAcZgW9OrmCsZsvvjvsV49MEGCI3Q9D5TTxAjv0a6-B0&_nc_ht=scontent.ftpe8-3.fna&oh=1bd0cc8340112a75100b82a2719ad7f3&oe=5E155FB9" alt="cello" width="100" height="100"> </a><br>
         If you have any question about Math or English please do not contact.<br>
         If you need any help for History please contact me. <br>
+
 
     </p1>
 </div>
